@@ -2,7 +2,7 @@
 /**
  * main- Entry point
  *
- * retun: 0 if no error else return non 0 value
+ * return: Always 0 (success)
  */
 int main(void)
 {
