@@ -2,10 +2,10 @@
 /**
  * main- Entry point
  *
- * return:0 if no errors
+ * return: 0 if no errors, return non zero if no errors
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece od art,\n");
 	return (0);
 }
