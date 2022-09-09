@@ -1,8 +1,8 @@
-#inlude<stdio.h>
+#include<stdio.h>
 /**
- * main-entry point
+ * main- entry point
  *
- * Return:return 0, else return non 0 value
+ * return: return 0, else return non 0 if no errors
  */
 int main(void)
 {
