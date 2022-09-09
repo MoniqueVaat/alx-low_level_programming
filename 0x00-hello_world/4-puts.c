@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main- entry point
+ * main- Entry point
  *
- * return: return 0, else return non 0 if no errors
+ * retun: 0 if no error else return non 0 value
  */
 int main(void)
 {
