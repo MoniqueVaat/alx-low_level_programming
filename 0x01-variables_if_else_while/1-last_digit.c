@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
+
 /**
  * main - print if the number is positive, zero or negative
  *
@@ -10,23 +11,23 @@
 int main(void)
 {
 	int n;
-	int l;
+	char last[] = "Last digit of";
 
-	srand (time(0));
-	n = rand () - RAND_MAX / 2;
-	l = n % 10;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	printf("%s %d is %d and is", last, n, n%10);
 
-	if (1 > 5)
+	if (n%10 > 5)
 	{
-		printf("Last digit of %d and is greater than 5\n", n, 1);
+		printf("greater than 5\n");
 	}
-	else if (1 == 0)
+	else if (n%10 == 0)
 	{
-		printf("Last digit of %d and is 0\n", n, l);
+		printf("0\n");
 	}
-	else
+	else 
 	{
-		printf("Last digit of %d and is less than 6 and not 0\n", n, l);
+		printf("less than 6 and not 0\n");
 	}
 	return (0);
 }
