@@ -10,16 +10,21 @@ int main(void)
 
 	for (i = 0; j <= 9; i++)
 	{
+		
 		if(j > i)
 
 		{
+			
 			putchar (i + '0');
 			putchar (j + '0');
 			if (i != 8)
 			{
+				
 				putchar(',');
 				putchar(' ');
+
 			}
+
 		}
 	}
 	putchar ('\n');
