@@ -41,7 +41,7 @@ unsigned int binary_to_unit(const char *b)
 	{
 		decimal += ((b[str_len - 1] - '0') * base);
 		base *= 2;
-		str_len;
+		str_len--;
 	}
 	return (decimal);
 }
