@@ -5,7 +5,6 @@
  * @ht: A pointer to the hash table.
  * @key: The key to add - cannot be an empty string.
  * @value: The value associated with key.
-
  *
  * Return: Upon failure - 0.
  *         Otherwise - 1.
